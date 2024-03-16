@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	m := "www.educative.io/explore"
-	n := "educative.io/edpresso"
+	m := "www.educative.io/exploreeee"
+	n := "educative.io/edpressoooo"
 	// m = "ababczb"
 	// n = "bababz"
 	fmt.Println(lcslength.LengthOfLCS(m, n))
