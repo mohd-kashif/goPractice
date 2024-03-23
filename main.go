@@ -2,13 +2,10 @@ package main
 
 import (
 	"fmt"
-	lcslength "goPractice/LCSLength"
+	fileread "goPractice/fileRead"
 )
 
 func main() {
-	m := "www.educative.io/exploreeeejasdg"
-	n := "educative.io/edpressoooaasd,hao"
-	// m = "ababczb"
-	// n = "bababz"
-	fmt.Println(lcslength.LengthOfLCS(m, n))
+	output := fileread.ReadFromFile("/Users/mishipay/Documents/goPractice/fileRead/file.txt")
+	fmt.Println(output)
 }
