@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	fileread "goPractice/fileRead"
+	containerwithmostwater "goPractice/containerWithMostWater"
 )
 
 func main() {
-	output := fileread.ReadFromFile("/Users/mishipay/Documents/goPractice/fileRead/file.txt")
-	fmt.Println(output)
+	height := []int{1, 8, 6, 2, 5, 4, 8, 3, 7}
+	fmt.Println(containerwithmostwater.MaxArea(height))
+
 }
