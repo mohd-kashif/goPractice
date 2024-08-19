@@ -1,0 +1,9 @@
+package constant
+
+type PROBLEM_LEVEL string
+
+const (
+	EASY   PROBLEM_LEVEL = "EASY"
+	MEDIUM PROBLEM_LEVEL = "MEDIUM"
+	HARD   PROBLEM_LEVEL = "HARD"
+)
