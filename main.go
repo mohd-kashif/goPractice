@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	arr := []int{1, 2, 3, 4, 5}
-	res := neetcode150.ContainsDuplicate(arr)
+	arr := []int{2, 1, 2, 1, 0, 1, 2}
+	res := neetcode150.MaxProfit(arr)
 	fmt.Println(res)
 }
