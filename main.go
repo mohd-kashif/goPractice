@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	neetcode150 "goPractice/neetCode150"
+	agodaprep "goPractice/agodaPrep"
 )
 
 func main() {
-	arr := []int{2, 1, 2, 1, 0, 1, 2}
-	res := neetcode150.MaxProfit(arr)
-	fmt.Println(res)
+	str := [][]int{{2, 1, 1}, {1, 1, 0}, {0, 1, 1}}
+	result := agodaprep.OrangesRotting(str)
+	fmt.Println(result)
 }
